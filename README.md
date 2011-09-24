@@ -1,4 +1,4 @@
-# Node.js Language Pack
+# C Language Pack
 
 The C Language Pack will run `./configure` and `make` on your app.
 

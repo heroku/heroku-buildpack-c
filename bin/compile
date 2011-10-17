@@ -16,10 +16,13 @@ function indent() {
 }
 
 cd $BUILD_DIR
+
+# configure
 if [ -f configure ]; then
   echo "-----> Configuring"
   ./configure 2>&1 | indent
 fi
 
+# make
 echo "-----> Compiling with Make"
 make 2>&1 | indent

@@ -1,7 +1,7 @@
 Heroku buildpack: C
 ===================
 
-This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpack) for C apps.
+This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for C apps.
 It uses [Make](http://www.gnu.org/software/make/).
 
 Usage

@@ -12,7 +12,7 @@ Example usage:
     $ ls
     configure  Makefile  myapp.c
 
-    $ heroku create --stack cedar --buildpack http://github.com/heroku/heroku-buildpack-c.git
+    $ heroku create --buildpack http://github.com/heroku/heroku-buildpack-c.git
 
     $ git push heroku master
     ...

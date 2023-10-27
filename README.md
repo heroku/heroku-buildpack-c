@@ -24,7 +24,7 @@ Example usage:
     -----> Compiling with Make
            gcc -o myapp myapp.c
 
-The buildpack will detect your app as C if it has the file `Makefile` in the root.  It will run a `configure` script if it exists in the root of the repository. It will then run `make` to compile the app.
+The buildpack will detect your app as C if it has the file `Makefile` or `GNUmakefile` in the root.  It will run a `configure` script if it exists in the root of the repository. It will then run `make` to compile the app.
 
 Hacking
 -------

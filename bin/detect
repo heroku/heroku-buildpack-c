@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-if [[ -f $1/Makefile  ||  -f $1/configure ]]; then
+if [[ -f $1/Makefile  ||  -f $1/configure  ||  -f $1/GNUmakefile ]]; then
   echo "C" && exit 0
 else
   echo "no" && exit 1
